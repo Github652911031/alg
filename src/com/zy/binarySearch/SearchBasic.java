@@ -21,6 +21,7 @@ public class SearchBasic {
         int left = 0;
         int right = array.length - 1;
         while(left <= right) {
+			int a = 1;
             int mid = (left + right) / 2;
             if(array[mid] > key) {
                 right = mid - 1;
